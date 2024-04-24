@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+
+    section.MyProject {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .banner {
+        h2 {
+            font-size: 15px;
+        }
+    }
+
+    article {
+        width: auto;
+    }
+    
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr;   
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+
+        h1 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+
+    .navList {
+        margin: 20px;
+        padding-left: 0px;
+
+        li {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 787px) {
+
+    .Story {
+        margin: 10px;
+
+        h2 {
+            font-size: 15px;
+        }
+    }
+
+    p.presentation {
+        font-size: 15px;
+    }
+
+    .detail {
+        li {
+            font-size: 20px;
+        }
+    }
+}
+
+
+

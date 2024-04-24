@@ -1,0 +1,58 @@
+
+.article-container p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+}
+
+.Banner-Competence {
+  background: #f9ab03;
+  opacity: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+}
+
+article {
+  cursor: pointer;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  flex: 1; /* Pour que chaque article occupe le même espace */
+}
+
+.article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Pour centrer l'image et le paragraphe */
+  text-align: center; /* Pour centrer le texte */
+}
+
+article img {
+  object-fit: scale-down;
+
+  &:hover {
+    border: 3px solid black;
+    background: #a3926d;
+  }
+}

@@ -1,0 +1,58 @@
+section.MyProject {
+    background-color: #f9ab03;
+    opacity: 70%;
+    margin: 50px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.MyProject h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.MyProject section {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.Project-1,
+.Project-2,
+.Project-3,
+.Project-4,
+.Project-5,
+.Project-6,
+.Project-7,
+.Project-8,
+.Project-9 {
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid black;
+    margin: 10px;
+    width: auto;
+    height: 280px;
+    border-radius: 20px 20px 0px 0px;   
+}
+
+h3 {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal; 
+}
+
+.Project-1:hover,
+.Project-2:hover,
+.Project-3:hover,
+.Project-4:hover,
+.Project-5:hover,
+.Project-6:hover,
+.Project-7:hover,
+.Project-8:hover,
+.Project-9:hover {
+    background: linear-gradient(to top, black 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: 0 80%;
+    transition: background-position 2s;
+}

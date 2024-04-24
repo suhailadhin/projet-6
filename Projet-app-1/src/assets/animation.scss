@@ -1,0 +1,19 @@
+@keyframes scroll {
+    0% { 
+     transform: translateY(150%);
+    }
+    100% {
+     transform: translateY(0);
+ }
+ }
+
+/*Header animation*/
+
+ @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
